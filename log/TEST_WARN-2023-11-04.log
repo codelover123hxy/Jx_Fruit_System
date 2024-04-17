@@ -1,0 +1,40 @@
+ 2023-11-04 22:07:00.123 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/PC/.m2/repository/org/json/json/20220320/json-20220320.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/PC/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+ 2023-11-04 22:07:01.147 [main] WARN  o.s.core.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.session.config.annotation.web.http.SpringHttpSessionConfiguration
+ 2023-11-04 22:49:36.821 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/PC/.m2/repository/org/json/json/20220320/json-20220320.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/PC/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+ 2023-11-04 22:49:37.979 [main] WARN  o.s.core.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.session.config.annotation.web.http.SpringHttpSessionConfiguration
+ 2023-11-04 22:54:44.714 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/PC/.m2/repository/org/json/json/20220320/json-20220320.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/PC/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+ 2023-11-04 22:54:45.692 [main] WARN  o.s.core.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.session.config.annotation.web.http.SpringHttpSessionConfiguration
+ 2023-11-04 22:57:47.247 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/PC/.m2/repository/org/json/json/20220320/json-20220320.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/PC/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+ 2023-11-04 22:57:48.129 [main] WARN  o.s.core.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.session.config.annotation.web.http.SpringHttpSessionConfiguration

@@ -1,0 +1,73 @@
+ 2023-11-29 20:52:10.966 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+ 2023-11-29 20:52:11.030 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 24176 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-11-29 20:52:11.031 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-11-29 20:52:11.100 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\PC\.m2\repository\com\sun\xml\bind\jaxb-core\4.0.1\jaxb-core-4.0.1.jar referenced one or more files that do not exist: file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.1/jakarta.activation-api.jar,file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.1/jakarta.xml.bind-api.jar
+ 2023-11-29 20:52:11.101 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\PC\.m2\repository\com\sun\xml\bind\jaxb-impl\4.0.1\jaxb-impl-4.0.1.jar referenced one or more files that do not exist: file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-impl/4.0.1/jaxb-core.jar,file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-impl/4.0.1/angus-activation.jar
+ 2023-11-29 20:52:11.101 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2023-11-29 20:52:11.101 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 2023-11-29 20:52:12.330 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-11-29 20:52:12.336 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-11-29 20:52:12.411 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces.
+ 2023-11-29 20:52:12.942 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-11-29 20:52:13.676 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https) 8858 (http)
+ 2023-11-29 20:52:13.713 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-11-29 20:52:13.727 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8858"]
+ 2023-11-29 20:52:13.736 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2023-11-29 20:52:13.737 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+ 2023-11-29 20:52:13.917 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2023-11-29 20:52:13.918 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2815 ms
+ 2023-11-29 20:52:15.788 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2023-11-29 20:52:15.831 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-11-29 20:52:16.101 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8858"]
+ 2023-11-29 20:52:16.106 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) 8858 (http) with context path ''
+ 2023-11-29 20:52:16.124 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Started JxFruitApplication in 5.67 seconds (process running for 7.45)
+ 2023-11-29 20:56:44.574 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [team.CowsAndHorses.pursebuddy.JxxApplicationTests]: JxxApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ 2023-11-29 20:56:44.786 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration team.CowsAndHorses.JxFruitApplication for test class team.CowsAndHorses.pursebuddy.JxxApplicationTests
+ 2023-11-29 20:56:45.462 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+ 2023-11-29 20:56:45.543 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - Starting JxxApplicationTests using Java 17.0.8.1 with PID 20004 (started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-11-29 20:56:45.550 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - The following 1 profile is active: "debug"
+ 2023-11-29 20:56:46.944 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-11-29 20:56:46.950 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-11-29 20:56:47.012 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 0 Redis repository interfaces.
+ 2023-11-29 20:56:47.673 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-11-29 20:56:52.115 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - Started JxxApplicationTests in 7.108 seconds (process running for 9.228)
+ 2023-11-29 20:57:03.987 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [team.CowsAndHorses.pursebuddy.JxxApplicationTests]: JxxApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ 2023-11-29 20:57:04.216 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration team.CowsAndHorses.JxFruitApplication for test class team.CowsAndHorses.pursebuddy.JxxApplicationTests
+ 2023-11-29 20:57:04.906 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+ 2023-11-29 20:57:04.939 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - Starting JxxApplicationTests using Java 17.0.8.1 with PID 3940 (started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-11-29 20:57:04.941 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - The following 1 profile is active: "debug"
+ 2023-11-29 20:57:06.264 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-11-29 20:57:06.268 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-11-29 20:57:06.358 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69 ms. Found 0 Redis repository interfaces.
+ 2023-11-29 20:57:07.030 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-11-29 20:57:11.197 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - Started JxxApplicationTests in 6.716 seconds (process running for 8.78)
+ 2023-11-29 20:57:47.667 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [team.CowsAndHorses.pursebuddy.JxxApplicationTests]: JxxApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ 2023-11-29 20:57:47.889 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration team.CowsAndHorses.JxFruitApplication for test class team.CowsAndHorses.pursebuddy.JxxApplicationTests
+ 2023-11-29 20:57:48.561 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+ 2023-11-29 20:57:48.591 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - Starting JxxApplicationTests using Java 17.0.8.1 with PID 19984 (started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-11-29 20:57:48.592 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - The following 1 profile is active: "debug"
+ 2023-11-29 20:57:49.898 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-11-29 20:57:49.902 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-11-29 20:57:50.004 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30 ms. Found 0 Redis repository interfaces.
+ 2023-11-29 20:57:50.551 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-11-29 20:57:54.268 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - Started JxxApplicationTests in 6.146 seconds (process running for 8.022)
+ 2023-11-29 20:59:21.394 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [team.CowsAndHorses.pursebuddy.JxxApplicationTests]: JxxApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ 2023-11-29 20:59:21.571 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration team.CowsAndHorses.JxFruitApplication for test class team.CowsAndHorses.pursebuddy.JxxApplicationTests
+ 2023-11-29 20:59:22.230 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+ 2023-11-29 20:59:22.257 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - Starting JxxApplicationTests using Java 17.0.8.1 with PID 25292 (started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-11-29 20:59:22.258 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - The following 1 profile is active: "debug"
+ 2023-11-29 20:59:23.552 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-11-29 20:59:23.556 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-11-29 20:59:23.600 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+ 2023-11-29 20:59:24.103 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-11-29 20:59:27.761 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - Started JxxApplicationTests in 5.92 seconds (process running for 7.891)
+ 2023-11-29 21:00:31.950 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [team.CowsAndHorses.pursebuddy.JxxApplicationTests]: JxxApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ 2023-11-29 21:00:32.113 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration team.CowsAndHorses.JxFruitApplication for test class team.CowsAndHorses.pursebuddy.JxxApplicationTests
+ 2023-11-29 21:00:32.779 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+ 2023-11-29 21:00:32.865 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - Starting JxxApplicationTests using Java 17.0.8.1 with PID 4320 (started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-11-29 21:00:32.867 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - The following 1 profile is active: "debug"
+ 2023-11-29 21:00:34.205 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-11-29 21:00:34.209 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-11-29 21:00:34.260 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+ 2023-11-29 21:00:34.891 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-11-29 21:00:38.460 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - Started JxxApplicationTests in 6.053 seconds (process running for 7.867)

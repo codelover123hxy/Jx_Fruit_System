@@ -1,0 +1,1131 @@
+ 2023-12-11 11:32:29.916 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+ 2023-12-11 11:32:29.991 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 25880 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 11:32:29.993 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-12-11 11:32:30.068 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\PC\.m2\repository\com\sun\xml\bind\jaxb-core\4.0.1\jaxb-core-4.0.1.jar referenced one or more files that do not exist: file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.1/jakarta.activation-api.jar,file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.1/jakarta.xml.bind-api.jar
+ 2023-12-11 11:32:30.070 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\PC\.m2\repository\com\sun\xml\bind\jaxb-impl\4.0.1\jaxb-impl-4.0.1.jar referenced one or more files that do not exist: file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-impl/4.0.1/jaxb-core.jar,file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-impl/4.0.1/angus-activation.jar
+ 2023-12-11 11:32:30.070 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2023-12-11 11:32:30.077 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 2023-12-11 11:32:31.428 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 11:32:31.434 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 11:32:31.530 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface team.CowsAndHorses.repository.SmsListRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+ 2023-12-11 11:32:31.532 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 70 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 11:32:32.026 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-11 11:32:33.003 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https) 8858 (http)
+ 2023-12-11 11:32:33.021 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 11:32:33.029 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 11:32:33.035 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2023-12-11 11:32:33.035 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+ 2023-12-11 11:32:33.241 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2023-12-11 11:32:33.242 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3164 ms
+ 2023-12-11 11:32:35.759 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2023-12-11 11:32:35.832 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 11:32:36.089 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 11:32:36.097 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) 8858 (http) with context path ''
+ 2023-12-11 11:32:36.143 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Started JxFruitApplication in 6.803 seconds (process running for 8.958)
+ 2023-12-11 12:24:45.618 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+ 2023-12-11 12:24:45.672 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 14720 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 12:24:45.673 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-12-11 12:24:45.733 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\PC\.m2\repository\com\sun\xml\bind\jaxb-core\4.0.1\jaxb-core-4.0.1.jar referenced one or more files that do not exist: file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.1/jakarta.activation-api.jar,file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.1/jakarta.xml.bind-api.jar
+ 2023-12-11 12:24:45.734 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\PC\.m2\repository\com\sun\xml\bind\jaxb-impl\4.0.1\jaxb-impl-4.0.1.jar referenced one or more files that do not exist: file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-impl/4.0.1/jaxb-core.jar,file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-impl/4.0.1/angus-activation.jar
+ 2023-12-11 12:24:45.734 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2023-12-11 12:24:45.734 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 2023-12-11 12:24:46.649 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 12:24:46.652 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 12:24:46.711 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface team.CowsAndHorses.repository.SmsListRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+ 2023-12-11 12:24:46.711 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 12:24:46.998 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-11 12:24:47.497 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https) 8858 (http)
+ 2023-12-11 12:24:47.506 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:24:47.509 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:24:47.512 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2023-12-11 12:24:47.512 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+ 2023-12-11 12:24:47.612 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2023-12-11 12:24:47.613 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1879 ms
+ 2023-12-11 12:24:48.968 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2023-12-11 12:24:49.013 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:24:49.161 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:24:49.164 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) 8858 (http) with context path ''
+ 2023-12-11 12:24:49.177 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Started JxFruitApplication in 3.937 seconds (process running for 5.157)
+ 2023-12-11 12:28:33.727 [https-jsse-nio-8083-exec-6] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2023-12-11 12:28:33.727 [https-jsse-nio-8083-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 2023-12-11 12:28:33.729 [https-jsse-nio-8083-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+ 2023-12-11 12:28:34.246 [https-jsse-nio-8083-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2023-12-11 12:28:34.960 [https-jsse-nio-8083-exec-6] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@17c5ad23
+ 2023-12-11 12:28:34.962 [https-jsse-nio-8083-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2023-12-11 12:31:02.752 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+ 2023-12-11 12:31:02.775 [Thread-5] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:31:02.776 [Thread-5] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:31:02.795 [Thread-5] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+ 2023-12-11 12:31:02.797 [Thread-5] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+ 2023-12-11 12:31:02.801 [Thread-5] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:31:02.802 [Thread-5] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:31:02.805 [Thread-5] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:31:02.805 [Thread-5] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:31:02.812 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 2023-12-11 12:31:02.829 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 2023-12-11 12:31:02.961 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 14720 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 12:31:02.961 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-12-11 12:31:03.246 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 12:31:03.247 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 12:31:03.260 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface team.CowsAndHorses.repository.SmsListRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+ 2023-12-11 12:31:03.260 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 12:31:03.325 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-11 12:31:03.385 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https) 8858 (http)
+ 2023-12-11 12:31:03.386 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:31:03.386 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:31:03.387 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2023-12-11 12:31:03.387 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+ 2023-12-11 12:31:03.470 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2023-12-11 12:31:03.470 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 505 ms
+ 2023-12-11 12:31:04.278 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2023-12-11 12:31:04.318 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:31:04.344 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:31:04.348 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) 8858 (http) with context path ''
+ 2023-12-11 12:31:04.353 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Started JxFruitApplication in 1.443 seconds (process running for 380.332)
+ 2023-12-11 12:31:04.354 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+ 2023-12-11 12:31:05.755 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+ 2023-12-11 12:31:05.771 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:31:05.771 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:31:05.786 [Thread-7] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+ 2023-12-11 12:31:05.786 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:31:05.786 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:31:05.802 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:31:05.802 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:31:05.980 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 14720 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 12:31:05.980 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-12-11 12:31:06.160 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 12:31:06.161 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 12:31:06.173 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface team.CowsAndHorses.repository.SmsListRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+ 2023-12-11 12:31:06.173 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 12:31:06.234 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-11 12:31:06.280 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https) 8858 (http)
+ 2023-12-11 12:31:06.281 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:31:06.282 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:31:06.282 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2023-12-11 12:31:06.282 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+ 2023-12-11 12:31:06.348 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2023-12-11 12:31:06.348 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 366 ms
+ 2023-12-11 12:31:06.827 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+ 2023-12-11 12:31:06.836 [restartedMain] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+ 2023-12-11 12:32:32.645 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 14720 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 12:32:32.646 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-12-11 12:32:32.858 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 12:32:32.858 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 12:32:32.876 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface team.CowsAndHorses.repository.SmsListRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+ 2023-12-11 12:32:32.876 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 12:32:32.951 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-11 12:32:33.000 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https) 8858 (http)
+ 2023-12-11 12:32:33.002 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:32:33.002 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:32:33.004 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2023-12-11 12:32:33.004 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+ 2023-12-11 12:32:33.091 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2023-12-11 12:32:33.091 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 444 ms
+ 2023-12-11 12:32:33.827 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2023-12-11 12:32:33.872 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:32:33.883 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:32:33.883 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:32:33.907 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:32:33.907 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:32:33.908 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+ 2023-12-11 12:32:33.910 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:32:33.918 [restartedMain] INFO  org.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+ 2023-12-11 12:32:33.919 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:32:33.919 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:32:33.919 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:32:33.923 [restartedMain] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+ 2023-12-11 12:32:35.447 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 14720 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 12:32:35.447 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-12-11 12:32:35.598 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 12:32:35.599 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 12:32:35.611 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface team.CowsAndHorses.repository.SmsListRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+ 2023-12-11 12:32:35.611 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 12:32:35.672 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-11 12:32:35.730 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https) 8858 (http)
+ 2023-12-11 12:32:35.731 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:32:35.731 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:32:35.733 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2023-12-11 12:32:35.733 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+ 2023-12-11 12:32:35.810 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2023-12-11 12:32:35.810 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 361 ms
+ 2023-12-11 12:32:36.251 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2023-12-11 12:32:36.273 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:32:36.279 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:32:36.279 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:32:36.291 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:32:36.292 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:32:36.292 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+ 2023-12-11 12:32:36.293 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:32:36.295 [restartedMain] INFO  org.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+ 2023-12-11 12:32:36.295 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:32:36.296 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:32:36.296 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:32:36.298 [restartedMain] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+ 2023-12-11 12:32:45.188 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+ 2023-12-11 12:32:45.217 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 3780 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 12:32:45.219 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-12-11 12:32:45.257 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\PC\.m2\repository\com\sun\xml\bind\jaxb-core\4.0.1\jaxb-core-4.0.1.jar referenced one or more files that do not exist: file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.1/jakarta.activation-api.jar,file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.1/jakarta.xml.bind-api.jar
+ 2023-12-11 12:32:45.257 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\PC\.m2\repository\com\sun\xml\bind\jaxb-impl\4.0.1\jaxb-impl-4.0.1.jar referenced one or more files that do not exist: file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-impl/4.0.1/jaxb-core.jar,file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-impl/4.0.1/angus-activation.jar
+ 2023-12-11 12:32:45.257 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2023-12-11 12:32:45.257 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 2023-12-11 12:32:45.826 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 12:32:45.828 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 12:32:45.883 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface team.CowsAndHorses.repository.SmsListRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+ 2023-12-11 12:32:45.884 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 12:32:46.152 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-11 12:32:46.635 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https) 8858 (http)
+ 2023-12-11 12:32:46.645 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:32:46.649 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:32:46.651 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2023-12-11 12:32:46.651 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+ 2023-12-11 12:32:46.760 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2023-12-11 12:32:46.760 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1503 ms
+ 2023-12-11 12:32:48.160 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2023-12-11 12:32:48.202 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:32:48.315 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:32:48.319 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) 8858 (http) with context path ''
+ 2023-12-11 12:32:48.333 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Started JxFruitApplication in 3.405 seconds (process running for 4.525)
+ 2023-12-11 12:32:52.753 [https-jsse-nio-8083-exec-6] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2023-12-11 12:32:52.753 [https-jsse-nio-8083-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 2023-12-11 12:32:52.755 [https-jsse-nio-8083-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+ 2023-12-11 12:33:24.385 [https-jsse-nio-8083-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2023-12-11 12:33:25.044 [https-jsse-nio-8083-exec-7] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7753c2d2
+ 2023-12-11 12:33:25.047 [https-jsse-nio-8083-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2023-12-11 12:37:30.896 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 2023-12-11 12:37:30.901 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 2023-12-11 12:37:36.962 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+ 2023-12-11 12:37:37.005 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 17628 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 12:37:37.005 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-12-11 12:37:37.055 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\PC\.m2\repository\com\sun\xml\bind\jaxb-core\4.0.1\jaxb-core-4.0.1.jar referenced one or more files that do not exist: file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.1/jakarta.activation-api.jar,file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.1/jakarta.xml.bind-api.jar
+ 2023-12-11 12:37:37.055 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\PC\.m2\repository\com\sun\xml\bind\jaxb-impl\4.0.1\jaxb-impl-4.0.1.jar referenced one or more files that do not exist: file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-impl/4.0.1/jaxb-core.jar,file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-impl/4.0.1/angus-activation.jar
+ 2023-12-11 12:37:37.055 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2023-12-11 12:37:37.055 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 2023-12-11 12:37:37.800 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 12:37:37.804 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 12:37:37.861 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface team.CowsAndHorses.repository.SmsListRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+ 2023-12-11 12:37:37.862 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 12:37:38.194 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-11 12:37:38.793 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https) 8858 (http)
+ 2023-12-11 12:37:38.807 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:37:38.811 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:37:38.814 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2023-12-11 12:37:38.816 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+ 2023-12-11 12:37:38.952 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2023-12-11 12:37:38.953 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1897 ms
+ 2023-12-11 12:37:41.166 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2023-12-11 12:37:41.225 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:37:41.388 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:37:41.395 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) 8858 (http) with context path ''
+ 2023-12-11 12:37:41.408 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Started JxFruitApplication in 4.753 seconds (process running for 5.954)
+ 2023-12-11 12:37:57.093 [https-jsse-nio-8083-exec-5] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2023-12-11 12:37:57.093 [https-jsse-nio-8083-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 2023-12-11 12:37:57.095 [https-jsse-nio-8083-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+ 2023-12-11 12:38:24.150 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+ 2023-12-11 12:38:24.181 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 2168 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 12:38:24.182 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-12-11 12:38:24.218 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\PC\.m2\repository\com\sun\xml\bind\jaxb-core\4.0.1\jaxb-core-4.0.1.jar referenced one or more files that do not exist: file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.1/jakarta.activation-api.jar,file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.1/jakarta.xml.bind-api.jar
+ 2023-12-11 12:38:24.219 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\PC\.m2\repository\com\sun\xml\bind\jaxb-impl\4.0.1\jaxb-impl-4.0.1.jar referenced one or more files that do not exist: file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-impl/4.0.1/jaxb-core.jar,file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-impl/4.0.1/angus-activation.jar
+ 2023-12-11 12:38:24.219 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2023-12-11 12:38:24.219 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 2023-12-11 12:38:24.827 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 12:38:24.830 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 12:38:24.874 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface team.CowsAndHorses.repository.SmsListRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+ 2023-12-11 12:38:24.875 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 12:38:25.136 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-11 12:38:25.645 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https) 8858 (http)
+ 2023-12-11 12:38:25.653 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:38:25.657 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:38:25.659 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2023-12-11 12:38:25.659 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+ 2023-12-11 12:38:25.760 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2023-12-11 12:38:25.760 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1535 ms
+ 2023-12-11 12:38:27.109 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2023-12-11 12:38:27.153 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:38:27.270 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:38:27.274 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) 8858 (http) with context path ''
+ 2023-12-11 12:38:27.288 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Started JxFruitApplication in 3.405 seconds (process running for 4.45)
+ 2023-12-11 12:38:40.091 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+ 2023-12-11 12:38:40.111 [Thread-5] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:38:40.111 [Thread-5] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:38:40.126 [Thread-5] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+ 2023-12-11 12:38:40.131 [Thread-5] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:38:40.132 [Thread-5] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:38:40.135 [Thread-5] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:38:40.135 [Thread-5] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:38:40.225 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 2168 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 12:38:40.226 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-12-11 12:38:40.453 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 12:38:40.453 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 12:38:40.470 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface team.CowsAndHorses.repository.SmsListRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+ 2023-12-11 12:38:40.470 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 12:38:40.559 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-11 12:38:40.634 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https) 8858 (http)
+ 2023-12-11 12:38:40.635 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:38:40.636 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:38:40.637 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2023-12-11 12:38:40.637 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+ 2023-12-11 12:38:40.764 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2023-12-11 12:38:40.764 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 536 ms
+ 2023-12-11 12:38:41.497 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2023-12-11 12:38:41.528 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:38:41.538 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:38:41.542 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) 8858 (http) with context path ''
+ 2023-12-11 12:38:41.546 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Started JxFruitApplication in 1.357 seconds (process running for 18.708)
+ 2023-12-11 12:38:41.549 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+ 2023-12-11 12:38:42.972 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+ 2023-12-11 12:38:42.987 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:38:42.988 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:38:42.998 [Thread-7] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+ 2023-12-11 12:38:43.000 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:38:43.001 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:38:43.002 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:38:43.002 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:38:43.104 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 2168 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 12:38:43.105 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-12-11 12:38:43.304 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 12:38:43.305 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 12:38:43.317 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface team.CowsAndHorses.repository.SmsListRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+ 2023-12-11 12:38:43.318 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 12:38:43.373 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-11 12:38:43.420 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https) 8858 (http)
+ 2023-12-11 12:38:43.421 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:38:43.421 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:38:43.422 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2023-12-11 12:38:43.422 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+ 2023-12-11 12:38:43.492 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2023-12-11 12:38:43.492 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 386 ms
+ 2023-12-11 12:38:43.964 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2023-12-11 12:38:43.987 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:38:43.994 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:38:43.997 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) 8858 (http) with context path ''
+ 2023-12-11 12:38:44.001 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Started JxFruitApplication in 0.925 seconds (process running for 21.162)
+ 2023-12-11 12:38:44.002 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+ 2023-12-11 12:38:52.222 [https-jsse-nio-8083-exec-6] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2023-12-11 12:38:52.222 [https-jsse-nio-8083-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 2023-12-11 12:38:52.224 [https-jsse-nio-8083-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+ 2023-12-11 12:40:03.398 [https-jsse-nio-8083-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2023-12-11 12:40:03.934 [https-jsse-nio-8083-exec-9] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c0a3b6b
+ 2023-12-11 12:40:03.936 [https-jsse-nio-8083-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2023-12-11 12:42:06.993 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 167 class path changes (0 additions, 167 deletions, 0 modifications)
+ 2023-12-11 12:42:07.034 [Thread-11] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:42:07.034 [Thread-11] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:42:07.054 [Thread-11] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+ 2023-12-11 12:42:07.055 [Thread-11] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+ 2023-12-11 12:42:07.058 [Thread-11] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:42:07.059 [Thread-11] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:42:07.060 [Thread-11] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:42:07.060 [Thread-11] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:42:07.061 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 2023-12-11 12:42:07.067 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 2023-12-11 12:42:07.220 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 2168 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 12:42:07.220 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-12-11 12:42:07.432 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 12:42:07.432 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 12:42:07.434 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 12:42:07.543 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https)
+ 2023-12-11 12:42:07.543 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:42:07.543 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2023-12-11 12:42:07.543 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+ 2023-12-11 12:42:07.621 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2023-12-11 12:42:07.621 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 397 ms
+ 2023-12-11 12:42:07.846 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2023-12-11 12:42:07.858 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:42:07.883 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) with context path ''
+ 2023-12-11 12:42:07.889 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Started JxFruitApplication in 0.724 seconds (process running for 225.051)
+ 2023-12-11 12:42:07.893 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   RedisAutoConfiguration#redisTemplate matched:
+      - @ConditionalOnSingleCandidate (types: org.springframework.data.redis.connection.RedisConnectionFactory; SearchStrategy: all) found a single bean 'redisConnectionFactory'; @ConditionalOnMissingBean (names: redisTemplate; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ServletWebServerFactoryConfiguration.EmbeddedTomcat matched:
+      - @ConditionalOnClass found required classes 'jakarta.servlet.Servlet', 'org.apache.catalina.startup.Tomcat', 'org.apache.coyote.UpgradeProtocol' (OnClassCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.boot.web.servlet.server.ServletWebServerFactory; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   TaskExecutionAutoConfiguration#applicationTaskExecutor matched:
+      - @ConditionalOnMissingBean (types: java.util.concurrent.Executor; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ValidationAutoConfiguration#methodValidationPostProcessor matched:
+      - @ConditionalOnMissingBean (types: org.springframework.validation.beanvalidation.MethodValidationPostProcessor; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+ 2023-12-11 12:42:16.146 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 167 class path changes (167 additions, 0 deletions, 0 modifications)
+ 2023-12-11 12:42:16.161 [Thread-15] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:42:16.162 [Thread-15] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+ 2023-12-11 12:42:16.163 [Thread-15] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:42:16.164 [Thread-15] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:42:16.274 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 2168 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 12:42:16.274 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-12-11 12:42:16.462 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 12:42:16.462 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 12:42:16.474 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface team.CowsAndHorses.repository.SmsListRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+ 2023-12-11 12:42:16.475 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 12:42:16.536 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-11 12:42:16.590 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https) 8858 (http)
+ 2023-12-11 12:42:16.591 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:42:16.591 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:42:16.593 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2023-12-11 12:42:16.593 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+ 2023-12-11 12:42:16.680 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2023-12-11 12:42:16.680 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 404 ms
+ 2023-12-11 12:42:17.438 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2023-12-11 12:42:17.479 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:42:17.492 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:42:17.496 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) 8858 (http) with context path ''
+ 2023-12-11 12:42:17.503 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Started JxFruitApplication in 1.255 seconds (process running for 234.665)
+ 2023-12-11 12:42:17.505 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   RedisAutoConfiguration#redisTemplate:
+      Did not match:
+         - @ConditionalOnMissingBean (names: redisTemplate; SearchStrategy: all) found beans named redisTemplate (OnBeanCondition)
+
+   ServletWebServerFactoryConfiguration.EmbeddedTomcat:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.boot.web.servlet.server.ServletWebServerFactory; SearchStrategy: current) found beans of type 'org.springframework.boot.web.servlet.server.ServletWebServerFactory' servletContainer (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required classes 'jakarta.servlet.Servlet', 'org.apache.catalina.startup.Tomcat', 'org.apache.coyote.UpgradeProtocol' (OnClassCondition)
+
+   TaskExecutionAutoConfiguration#applicationTaskExecutor:
+      Did not match:
+         - @ConditionalOnMissingBean (types: java.util.concurrent.Executor; SearchStrategy: all) found beans of type 'java.util.concurrent.Executor' pool (OnBeanCondition)
+
+   ValidationAutoConfiguration#methodValidationPostProcessor:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.validation.beanvalidation.MethodValidationPostProcessor; SearchStrategy: current) found beans of type 'org.springframework.validation.beanvalidation.MethodValidationPostProcessor' methodValidationPostProcessor (OnBeanCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+ 2023-12-11 12:54:17.707 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+ 2023-12-11 12:54:17.743 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 5944 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 12:54:17.744 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-12-11 12:54:17.783 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\PC\.m2\repository\com\sun\xml\bind\jaxb-core\4.0.1\jaxb-core-4.0.1.jar referenced one or more files that do not exist: file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.1/jakarta.activation-api.jar,file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.1/jakarta.xml.bind-api.jar
+ 2023-12-11 12:54:17.783 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\PC\.m2\repository\com\sun\xml\bind\jaxb-impl\4.0.1\jaxb-impl-4.0.1.jar referenced one or more files that do not exist: file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-impl/4.0.1/jaxb-core.jar,file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-impl/4.0.1/angus-activation.jar
+ 2023-12-11 12:54:17.783 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2023-12-11 12:54:17.783 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 2023-12-11 12:54:18.415 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 12:54:18.418 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 12:54:18.461 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface team.CowsAndHorses.repository.SmsListRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+ 2023-12-11 12:54:18.463 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 12:54:18.725 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-11 12:54:19.172 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https) 8858 (http)
+ 2023-12-11 12:54:19.181 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:54:19.184 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:54:19.186 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2023-12-11 12:54:19.187 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+ 2023-12-11 12:54:19.295 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2023-12-11 12:54:19.295 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1510 ms
+ 2023-12-11 12:54:20.886 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2023-12-11 12:54:20.946 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:54:21.071 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:54:21.077 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) 8858 (http) with context path ''
+ 2023-12-11 12:54:21.091 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Started JxFruitApplication in 3.691 seconds (process running for 4.733)
+ 2023-12-11 12:56:31.165 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 167 class path changes (0 additions, 167 deletions, 0 modifications)
+ 2023-12-11 12:56:31.183 [Thread-5] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:56:31.183 [Thread-5] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:56:31.200 [Thread-5] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+ 2023-12-11 12:56:31.206 [Thread-5] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:56:31.207 [Thread-5] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:56:31.212 [Thread-5] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:56:31.212 [Thread-5] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:56:31.305 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 5944 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 12:56:31.306 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-12-11 12:56:31.568 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 12:56:31.569 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 12:56:31.571 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 12:56:31.707 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https)
+ 2023-12-11 12:56:31.709 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:56:31.710 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2023-12-11 12:56:31.710 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+ 2023-12-11 12:56:31.809 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2023-12-11 12:56:31.809 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 500 ms
+ 2023-12-11 12:56:32.047 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2023-12-11 12:56:32.056 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:56:32.065 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) with context path ''
+ 2023-12-11 12:56:32.069 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Started JxFruitApplication in 0.805 seconds (process running for 135.711)
+ 2023-12-11 12:56:32.073 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   RedisAutoConfiguration#redisTemplate matched:
+      - @ConditionalOnSingleCandidate (types: org.springframework.data.redis.connection.RedisConnectionFactory; SearchStrategy: all) found a single bean 'redisConnectionFactory'; @ConditionalOnMissingBean (names: redisTemplate; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ServletWebServerFactoryConfiguration.EmbeddedTomcat matched:
+      - @ConditionalOnClass found required classes 'jakarta.servlet.Servlet', 'org.apache.catalina.startup.Tomcat', 'org.apache.coyote.UpgradeProtocol' (OnClassCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.boot.web.servlet.server.ServletWebServerFactory; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   TaskExecutionAutoConfiguration#applicationTaskExecutor matched:
+      - @ConditionalOnMissingBean (types: java.util.concurrent.Executor; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ValidationAutoConfiguration#methodValidationPostProcessor matched:
+      - @ConditionalOnMissingBean (types: org.springframework.validation.beanvalidation.MethodValidationPostProcessor; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+ 2023-12-11 12:56:40.366 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 167 class path changes (167 additions, 0 deletions, 0 modifications)
+ 2023-12-11 12:56:40.382 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:56:40.383 [Thread-7] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+ 2023-12-11 12:56:40.385 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:56:40.386 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:56:40.499 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 5944 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 12:56:40.500 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-12-11 12:56:40.792 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 12:56:40.792 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 12:56:40.811 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface team.CowsAndHorses.repository.SmsListRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+ 2023-12-11 12:56:40.812 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 12:56:40.891 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-11 12:56:40.947 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https) 8858 (http)
+ 2023-12-11 12:56:40.947 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:56:40.948 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:56:40.948 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2023-12-11 12:56:40.949 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+ 2023-12-11 12:56:41.035 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2023-12-11 12:56:41.035 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 532 ms
+ 2023-12-11 12:56:42.154 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2023-12-11 12:56:42.191 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 12:56:42.200 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 12:56:42.205 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) 8858 (http) with context path ''
+ 2023-12-11 12:56:42.210 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Started JxFruitApplication in 1.746 seconds (process running for 145.851)
+ 2023-12-11 12:56:42.212 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   RedisAutoConfiguration#redisTemplate:
+      Did not match:
+         - @ConditionalOnMissingBean (names: redisTemplate; SearchStrategy: all) found beans named redisTemplate (OnBeanCondition)
+
+   ServletWebServerFactoryConfiguration.EmbeddedTomcat:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.boot.web.servlet.server.ServletWebServerFactory; SearchStrategy: current) found beans of type 'org.springframework.boot.web.servlet.server.ServletWebServerFactory' servletContainer (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required classes 'jakarta.servlet.Servlet', 'org.apache.catalina.startup.Tomcat', 'org.apache.coyote.UpgradeProtocol' (OnClassCondition)
+
+   TaskExecutionAutoConfiguration#applicationTaskExecutor:
+      Did not match:
+         - @ConditionalOnMissingBean (types: java.util.concurrent.Executor; SearchStrategy: all) found beans of type 'java.util.concurrent.Executor' pool (OnBeanCondition)
+
+   ValidationAutoConfiguration#methodValidationPostProcessor:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.validation.beanvalidation.MethodValidationPostProcessor; SearchStrategy: current) found beans of type 'org.springframework.validation.beanvalidation.MethodValidationPostProcessor' methodValidationPostProcessor (OnBeanCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+ 2023-12-11 13:01:22.841 [https-jsse-nio-8083-exec-5] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2023-12-11 13:01:22.841 [https-jsse-nio-8083-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 2023-12-11 13:01:22.856 [https-jsse-nio-8083-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+ 2023-12-11 13:08:31.279 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 167 class path changes (0 additions, 167 deletions, 0 modifications)
+ 2023-12-11 13:08:31.300 [Thread-11] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 13:08:31.300 [Thread-11] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 13:08:31.318 [Thread-11] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+ 2023-12-11 13:08:31.319 [Thread-11] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+ 2023-12-11 13:08:31.320 [Thread-11] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 13:08:31.321 [Thread-11] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 13:08:31.322 [Thread-11] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 13:08:31.323 [Thread-11] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 13:08:31.559 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 5944 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 13:08:31.559 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-12-11 13:08:31.781 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 13:08:31.782 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 13:08:31.784 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 13:08:40.344 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2023-12-11 13:08:40.345 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 2023-12-11 13:08:40.350 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 5944 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 13:08:40.350 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-12-11 13:08:40.636 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 13:08:40.637 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 13:08:40.660 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface team.CowsAndHorses.repository.SmsListRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+ 2023-12-11 13:08:40.661 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 13:08:40.749 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-11 13:08:40.831 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https) 8858 (http)
+ 2023-12-11 13:08:40.832 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 13:08:40.832 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 13:08:40.833 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2023-12-11 13:08:40.833 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+ 2023-12-11 13:08:40.926 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2023-12-11 13:08:40.927 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 574 ms
+ 2023-12-11 13:08:41.565 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2023-12-11 13:08:41.591 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 13:08:41.610 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 13:08:41.613 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) 8858 (http) with context path ''
+ 2023-12-11 13:08:41.617 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Started JxFruitApplication in 1.295 seconds (process running for 865.258)
+ 2023-12-11 13:08:41.618 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+ 2023-12-11 13:08:45.163 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+ 2023-12-11 13:08:45.179 [Thread-15] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 13:08:45.180 [Thread-15] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 13:08:45.193 [Thread-15] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+ 2023-12-11 13:08:45.196 [Thread-15] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 13:08:45.196 [Thread-15] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 13:08:45.198 [Thread-15] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 13:08:45.198 [Thread-15] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 13:08:45.435 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 5944 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 13:08:45.435 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-12-11 13:08:45.683 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 13:08:45.683 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 13:08:45.696 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface team.CowsAndHorses.repository.SmsListRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+ 2023-12-11 13:08:45.697 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 13:08:45.754 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-11 13:08:45.797 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https) 8858 (http)
+ 2023-12-11 13:08:45.798 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 13:08:45.798 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 13:08:45.798 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2023-12-11 13:08:45.800 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+ 2023-12-11 13:08:45.872 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2023-12-11 13:08:45.872 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 434 ms
+ 2023-12-11 13:08:46.405 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2023-12-11 13:08:46.437 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 13:08:46.444 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 13:08:46.448 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) 8858 (http) with context path ''
+ 2023-12-11 13:08:46.454 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Started JxFruitApplication in 1.063 seconds (process running for 870.096)
+ 2023-12-11 13:08:46.456 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+ 2023-12-11 13:08:55.198 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 166 class path changes (0 additions, 166 deletions, 0 modifications)
+ 2023-12-11 13:08:55.213 [Thread-22] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 13:08:55.214 [Thread-22] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 13:08:55.227 [Thread-22] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+ 2023-12-11 13:08:55.229 [Thread-22] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 13:08:55.229 [Thread-22] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 13:08:55.230 [Thread-22] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 13:08:55.230 [Thread-22] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 13:08:55.431 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 5944 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 13:08:55.432 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-12-11 13:08:55.544 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 13:08:55.544 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 13:08:55.545 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 13:09:02.426 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2023-12-11 13:09:02.427 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 2023-12-11 13:09:02.430 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 5944 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 13:09:02.430 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-12-11 13:09:02.645 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 13:09:02.645 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 13:09:02.660 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface team.CowsAndHorses.repository.SmsListRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+ 2023-12-11 13:09:02.660 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 13:09:02.719 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-11 13:09:02.774 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https) 8858 (http)
+ 2023-12-11 13:09:02.775 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 13:09:02.775 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 13:09:02.775 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2023-12-11 13:09:02.775 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+ 2023-12-11 13:09:02.854 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2023-12-11 13:09:02.855 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 423 ms
+ 2023-12-11 13:09:03.493 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2023-12-11 13:09:03.531 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 13:09:03.540 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 13:09:03.544 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) 8858 (http) with context path ''
+ 2023-12-11 13:09:03.550 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Started JxFruitApplication in 1.137 seconds (process running for 887.191)
+ 2023-12-11 13:09:03.551 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+ 2023-12-11 13:09:04.973 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+ 2023-12-11 13:09:04.993 [Thread-26] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 13:09:04.994 [Thread-26] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 13:09:05.011 [Thread-26] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+ 2023-12-11 13:09:05.013 [Thread-26] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 13:09:05.014 [Thread-26] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 13:09:05.015 [Thread-26] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 13:09:05.016 [Thread-26] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 13:09:05.168 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 5944 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 13:09:05.168 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-12-11 13:09:05.428 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 13:09:05.428 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 13:09:05.442 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface team.CowsAndHorses.repository.SmsListRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+ 2023-12-11 13:09:05.442 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 13:09:05.505 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-11 13:09:05.566 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https) 8858 (http)
+ 2023-12-11 13:09:05.567 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 13:09:05.567 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 13:09:05.567 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2023-12-11 13:09:05.568 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+ 2023-12-11 13:09:05.650 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2023-12-11 13:09:05.650 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 480 ms
+ 2023-12-11 13:09:06.197 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2023-12-11 13:09:06.228 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 13:09:06.236 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 13:09:06.240 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) 8858 (http) with context path ''
+ 2023-12-11 13:09:06.245 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Started JxFruitApplication in 1.171 seconds (process running for 889.888)
+ 2023-12-11 13:09:06.248 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+ 2023-12-11 13:09:44.002 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 178 class path changes (0 additions, 178 deletions, 0 modifications)
+ 2023-12-11 13:09:44.021 [Thread-33] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 13:09:44.021 [Thread-33] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 13:09:44.038 [Thread-33] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+ 2023-12-11 13:09:44.039 [Thread-33] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 13:09:44.040 [Thread-33] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 13:09:44.042 [Thread-33] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 13:09:44.043 [Thread-33] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:30:10.287 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [team.CowsAndHorses.pursebuddy.JxxApplicationTests]: JxxApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ 2023-12-11 20:30:10.543 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration team.CowsAndHorses.JxFruitApplication for test class team.CowsAndHorses.pursebuddy.JxxApplicationTests
+ 2023-12-11 20:30:11.318 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+ 2023-12-11 20:30:11.368 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - Starting JxxApplicationTests using Java 17.0.8.1 with PID 9964 (started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 20:30:11.369 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - The following 1 profile is active: "debug"
+ 2023-12-11 20:30:12.744 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 20:30:12.751 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 20:30:12.862 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface team.CowsAndHorses.repository.SmsListRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+ 2023-12-11 20:30:12.863 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 78 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 20:30:13.479 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-11 20:30:17.662 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - Started JxxApplicationTests in 6.856 seconds (process running for 9.429)
+ 2023-12-11 20:38:25.243 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [team.CowsAndHorses.pursebuddy.JxxApplicationTests]: JxxApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ 2023-12-11 20:38:25.354 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration team.CowsAndHorses.JxFruitApplication for test class team.CowsAndHorses.pursebuddy.JxxApplicationTests
+ 2023-12-11 20:38:25.795 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+ 2023-12-11 20:38:25.822 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - Starting JxxApplicationTests using Java 17.0.8.1 with PID 15300 (started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 20:38:25.823 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - The following 1 profile is active: "debug"
+ 2023-12-11 20:38:26.878 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 20:38:26.881 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 20:38:26.945 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface team.CowsAndHorses.repository.SmsListRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+ 2023-12-11 20:38:26.946 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 20:38:27.318 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-11 20:38:29.729 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - Started JxxApplicationTests in 4.224 seconds (process running for 5.625)
+ 2023-12-11 20:39:11.941 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [team.CowsAndHorses.pursebuddy.JxxApplicationTests]: JxxApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ 2023-12-11 20:39:12.047 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration team.CowsAndHorses.JxFruitApplication for test class team.CowsAndHorses.pursebuddy.JxxApplicationTests
+ 2023-12-11 20:39:12.478 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+ 2023-12-11 20:39:12.505 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - Starting JxxApplicationTests using Java 17.0.8.1 with PID 8356 (started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 20:39:12.506 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - The following 1 profile is active: "debug"
+ 2023-12-11 20:39:13.347 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 20:39:13.350 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 20:39:13.419 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface team.CowsAndHorses.repository.SmsListRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+ 2023-12-11 20:39:13.420 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 20:39:13.794 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-11 20:39:16.338 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - Started JxxApplicationTests in 4.144 seconds (process running for 5.517)
+ 2023-12-11 20:40:53.252 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [team.CowsAndHorses.pursebuddy.JxxApplicationTests]: JxxApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ 2023-12-11 20:40:53.360 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration team.CowsAndHorses.JxFruitApplication for test class team.CowsAndHorses.pursebuddy.JxxApplicationTests
+ 2023-12-11 20:40:53.792 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+ 2023-12-11 20:40:53.821 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - Starting JxxApplicationTests using Java 17.0.8.1 with PID 14480 (started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 20:40:53.821 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - The following 1 profile is active: "debug"
+ 2023-12-11 20:40:54.694 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 20:40:54.698 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 20:40:54.770 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface team.CowsAndHorses.repository.SmsListRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+ 2023-12-11 20:40:54.771 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 20:40:55.134 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-11 20:40:57.624 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - Started JxxApplicationTests in 4.125 seconds (process running for 5.491)
+ 2023-12-11 20:44:41.538 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+ 2023-12-11 20:44:41.575 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 28172 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 20:44:41.576 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-12-11 20:44:41.617 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\PC\.m2\repository\com\sun\xml\bind\jaxb-core\4.0.1\jaxb-core-4.0.1.jar referenced one or more files that do not exist: file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.1/jakarta.activation-api.jar,file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.1/jakarta.xml.bind-api.jar
+ 2023-12-11 20:44:41.617 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\PC\.m2\repository\com\sun\xml\bind\jaxb-impl\4.0.1\jaxb-impl-4.0.1.jar referenced one or more files that do not exist: file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-impl/4.0.1/jaxb-core.jar,file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-impl/4.0.1/angus-activation.jar
+ 2023-12-11 20:44:41.618 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2023-12-11 20:44:41.618 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 2023-12-11 20:44:42.322 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 20:44:42.325 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 20:44:42.369 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface team.CowsAndHorses.repository.SmsListRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+ 2023-12-11 20:44:42.369 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 20:44:42.685 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-11 20:44:43.206 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https) 8858 (http)
+ 2023-12-11 20:44:43.218 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:44:43.223 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:44:43.228 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2023-12-11 20:44:43.228 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+ 2023-12-11 20:44:43.351 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2023-12-11 20:44:43.351 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1733 ms
+ 2023-12-11 20:44:44.619 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+ 2023-12-11 20:44:44.640 [restartedMain] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+ 2023-12-11 20:45:24.518 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+ 2023-12-11 20:45:24.554 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 25844 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 20:45:24.555 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-12-11 20:45:24.601 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\PC\.m2\repository\com\sun\xml\bind\jaxb-core\4.0.1\jaxb-core-4.0.1.jar referenced one or more files that do not exist: file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.1/jakarta.activation-api.jar,file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.1/jakarta.xml.bind-api.jar
+ 2023-12-11 20:45:24.601 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\PC\.m2\repository\com\sun\xml\bind\jaxb-impl\4.0.1\jaxb-impl-4.0.1.jar referenced one or more files that do not exist: file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-impl/4.0.1/jaxb-core.jar,file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-impl/4.0.1/angus-activation.jar
+ 2023-12-11 20:45:24.601 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2023-12-11 20:45:24.601 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 2023-12-11 20:45:25.230 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 20:45:25.233 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 20:45:25.281 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface team.CowsAndHorses.repository.SmsListRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+ 2023-12-11 20:45:25.282 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 20:45:25.523 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-11 20:45:25.994 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https) 8858 (http)
+ 2023-12-11 20:45:26.003 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:45:26.006 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:45:26.009 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2023-12-11 20:45:26.010 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+ 2023-12-11 20:45:26.111 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2023-12-11 20:45:26.112 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1509 ms
+ 2023-12-11 20:45:27.210 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+ 2023-12-11 20:45:27.222 [restartedMain] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+ 2023-12-11 20:45:43.076 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+ 2023-12-11 20:45:43.110 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 5360 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 20:45:43.112 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-12-11 20:45:43.150 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\PC\.m2\repository\com\sun\xml\bind\jaxb-core\4.0.1\jaxb-core-4.0.1.jar referenced one or more files that do not exist: file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.1/jakarta.activation-api.jar,file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.1/jakarta.xml.bind-api.jar
+ 2023-12-11 20:45:43.150 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\PC\.m2\repository\com\sun\xml\bind\jaxb-impl\4.0.1\jaxb-impl-4.0.1.jar referenced one or more files that do not exist: file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-impl/4.0.1/jaxb-core.jar,file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-impl/4.0.1/angus-activation.jar
+ 2023-12-11 20:45:43.151 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2023-12-11 20:45:43.151 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 2023-12-11 20:45:43.763 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 20:45:43.765 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 20:45:43.830 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface team.CowsAndHorses.repository.SmsListRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+ 2023-12-11 20:45:43.830 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 20:45:44.095 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-11 20:45:44.593 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https) 8858 (http)
+ 2023-12-11 20:45:44.603 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:45:44.607 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:45:44.611 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2023-12-11 20:45:44.611 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+ 2023-12-11 20:45:44.718 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2023-12-11 20:45:44.718 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1567 ms
+ 2023-12-11 20:45:46.028 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2023-12-11 20:45:46.083 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:45:46.226 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:45:46.231 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) 8858 (http) with context path ''
+ 2023-12-11 20:45:46.244 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Started JxFruitApplication in 3.468 seconds (process running for 4.505)
+ 2023-12-11 20:46:23.035 [https-jsse-nio-8083-exec-6] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2023-12-11 20:46:23.035 [https-jsse-nio-8083-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 2023-12-11 20:46:23.038 [https-jsse-nio-8083-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+ 2023-12-11 20:48:23.432 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+ 2023-12-11 20:48:23.453 [Thread-5] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:48:23.453 [Thread-5] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:48:23.470 [Thread-5] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+ 2023-12-11 20:48:23.471 [Thread-5] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+ 2023-12-11 20:48:23.474 [Thread-5] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:48:23.476 [Thread-5] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:48:23.479 [Thread-5] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:48:23.479 [Thread-5] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:48:23.573 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 5360 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 20:48:23.574 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-12-11 20:48:23.825 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 20:48:23.826 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 20:48:23.842 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface team.CowsAndHorses.repository.SmsListRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+ 2023-12-11 20:48:23.842 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 20:48:23.910 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-11 20:48:23.958 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https) 8858 (http)
+ 2023-12-11 20:48:23.960 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:48:23.960 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:48:23.961 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2023-12-11 20:48:23.961 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+ 2023-12-11 20:48:24.033 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2023-12-11 20:48:24.033 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 457 ms
+ 2023-12-11 20:48:24.814 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2023-12-11 20:48:24.850 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:48:24.861 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:48:24.865 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) 8858 (http) with context path ''
+ 2023-12-11 20:48:24.871 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Started JxFruitApplication in 1.328 seconds (process running for 163.132)
+ 2023-12-11 20:48:24.873 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+ 2023-12-11 20:48:26.280 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+ 2023-12-11 20:48:26.300 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:48:26.301 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:48:26.323 [Thread-7] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+ 2023-12-11 20:48:26.325 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:48:26.327 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:48:26.328 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:48:26.329 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:48:26.443 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 5360 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 20:48:26.443 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-12-11 20:48:26.675 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 20:48:26.676 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 20:48:26.690 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface team.CowsAndHorses.repository.SmsListRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+ 2023-12-11 20:48:26.690 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 20:48:26.762 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-11 20:48:26.815 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https) 8858 (http)
+ 2023-12-11 20:48:26.816 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:48:26.816 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:48:26.817 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2023-12-11 20:48:26.817 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+ 2023-12-11 20:48:26.883 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2023-12-11 20:48:26.883 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 437 ms
+ 2023-12-11 20:48:27.342 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2023-12-11 20:48:27.368 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:48:27.375 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:48:27.377 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) 8858 (http) with context path ''
+ 2023-12-11 20:48:27.380 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Started JxFruitApplication in 0.967 seconds (process running for 165.641)
+ 2023-12-11 20:48:27.381 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+ 2023-12-11 20:49:28.553 [https-jsse-nio-8083-exec-6] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2023-12-11 20:49:28.553 [https-jsse-nio-8083-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 2023-12-11 20:49:28.554 [https-jsse-nio-8083-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+ 2023-12-11 20:50:48.271 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+ 2023-12-11 20:50:48.292 [Thread-11] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:50:48.292 [Thread-11] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:50:48.310 [Thread-11] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+ 2023-12-11 20:50:48.310 [Thread-11] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+ 2023-12-11 20:50:48.311 [Thread-11] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:50:48.312 [Thread-11] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:50:48.314 [Thread-11] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:50:48.315 [Thread-11] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:50:48.497 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 5360 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 20:50:48.497 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-12-11 20:50:48.732 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 20:50:48.733 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 20:50:48.750 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface team.CowsAndHorses.repository.SmsListRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+ 2023-12-11 20:50:48.750 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 20:50:48.828 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-11 20:50:48.880 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https) 8858 (http)
+ 2023-12-11 20:50:48.881 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:50:48.881 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:50:48.882 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2023-12-11 20:50:48.882 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+ 2023-12-11 20:50:48.963 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2023-12-11 20:50:48.964 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 465 ms
+ 2023-12-11 20:50:49.679 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2023-12-11 20:50:49.714 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:50:49.723 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:50:49.726 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) 8858 (http) with context path ''
+ 2023-12-11 20:50:49.731 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Started JxFruitApplication in 1.271 seconds (process running for 307.993)
+ 2023-12-11 20:50:49.733 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+ 2023-12-11 20:50:51.148 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+ 2023-12-11 20:50:51.168 [Thread-15] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:50:51.168 [Thread-15] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:50:51.184 [Thread-15] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+ 2023-12-11 20:50:51.185 [Thread-15] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:50:51.186 [Thread-15] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:50:51.190 [Thread-15] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:50:51.191 [Thread-15] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:50:51.373 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 5360 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 20:50:51.374 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-12-11 20:50:51.564 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 20:50:51.565 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 20:50:51.581 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface team.CowsAndHorses.repository.SmsListRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+ 2023-12-11 20:50:51.581 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 20:50:51.646 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-11 20:50:51.689 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https) 8858 (http)
+ 2023-12-11 20:50:51.689 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:50:51.690 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:50:51.690 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2023-12-11 20:50:51.690 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+ 2023-12-11 20:50:51.772 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2023-12-11 20:50:51.772 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 396 ms
+ 2023-12-11 20:50:52.373 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2023-12-11 20:50:52.409 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:50:52.418 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:50:52.421 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) 8858 (http) with context path ''
+ 2023-12-11 20:50:52.426 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Started JxFruitApplication in 1.082 seconds (process running for 310.687)
+ 2023-12-11 20:50:52.428 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+ 2023-12-11 20:50:56.657 [https-jsse-nio-8083-exec-7] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2023-12-11 20:50:56.657 [https-jsse-nio-8083-exec-7] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 2023-12-11 20:50:56.658 [https-jsse-nio-8083-exec-7] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+ 2023-12-11 20:51:38.583 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+ 2023-12-11 20:51:38.603 [Thread-19] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:51:38.603 [Thread-19] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:51:38.619 [Thread-19] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+ 2023-12-11 20:51:38.619 [Thread-19] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+ 2023-12-11 20:51:38.620 [Thread-19] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:51:38.621 [Thread-19] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:51:38.623 [Thread-19] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:51:38.623 [Thread-19] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:51:38.700 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 5360 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 20:51:38.700 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-12-11 20:51:38.922 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 20:51:38.922 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 20:51:38.936 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface team.CowsAndHorses.repository.SmsListRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+ 2023-12-11 20:51:38.936 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 20:51:38.992 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-11 20:51:39.048 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https) 8858 (http)
+ 2023-12-11 20:51:39.048 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:51:39.049 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:51:39.049 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2023-12-11 20:51:39.050 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+ 2023-12-11 20:51:39.139 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2023-12-11 20:51:39.140 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 438 ms
+ 2023-12-11 20:51:39.709 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2023-12-11 20:51:39.743 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:51:39.751 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:51:39.754 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) 8858 (http) with context path ''
+ 2023-12-11 20:51:39.761 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Started JxFruitApplication in 1.083 seconds (process running for 358.022)
+ 2023-12-11 20:51:39.762 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+ 2023-12-11 20:51:41.194 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+ 2023-12-11 20:51:41.210 [Thread-23] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:51:41.211 [Thread-23] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:51:41.228 [Thread-23] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+ 2023-12-11 20:51:41.230 [Thread-23] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:51:41.231 [Thread-23] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:51:41.234 [Thread-23] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:51:41.234 [Thread-23] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:51:41.314 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 5360 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 20:51:41.314 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-12-11 20:51:41.484 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 20:51:41.484 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 20:51:41.500 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface team.CowsAndHorses.repository.SmsListRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+ 2023-12-11 20:51:41.500 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 20:51:41.553 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-11 20:51:41.598 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https) 8858 (http)
+ 2023-12-11 20:51:41.599 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:51:41.599 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:51:41.599 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2023-12-11 20:51:41.599 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+ 2023-12-11 20:51:41.661 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2023-12-11 20:51:41.662 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 347 ms
+ 2023-12-11 20:51:42.084 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2023-12-11 20:51:42.111 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:51:42.118 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:51:42.121 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) 8858 (http) with context path ''
+ 2023-12-11 20:51:42.124 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Started JxFruitApplication in 0.831 seconds (process running for 360.386)
+ 2023-12-11 20:51:42.125 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+ 2023-12-11 20:52:31.813 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+ 2023-12-11 20:52:31.847 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 11652 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 20:52:31.848 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-12-11 20:52:31.888 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\PC\.m2\repository\com\sun\xml\bind\jaxb-core\4.0.1\jaxb-core-4.0.1.jar referenced one or more files that do not exist: file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.1/jakarta.activation-api.jar,file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.1/jakarta.xml.bind-api.jar
+ 2023-12-11 20:52:31.888 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\PC\.m2\repository\com\sun\xml\bind\jaxb-impl\4.0.1\jaxb-impl-4.0.1.jar referenced one or more files that do not exist: file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-impl/4.0.1/jaxb-core.jar,file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-impl/4.0.1/angus-activation.jar
+ 2023-12-11 20:52:31.889 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2023-12-11 20:52:31.889 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 2023-12-11 20:52:32.527 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 20:52:32.529 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 20:52:32.577 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface team.CowsAndHorses.repository.SmsListRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+ 2023-12-11 20:52:32.577 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 20:52:32.809 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-11 20:52:33.253 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https) 8858 (http)
+ 2023-12-11 20:52:33.260 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:52:33.263 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:52:33.265 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2023-12-11 20:52:33.266 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+ 2023-12-11 20:52:33.363 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2023-12-11 20:52:33.364 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1475 ms
+ 2023-12-11 20:52:34.704 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2023-12-11 20:52:34.749 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:52:34.869 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:52:34.873 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) 8858 (http) with context path ''
+ 2023-12-11 20:52:34.886 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Started JxFruitApplication in 3.379 seconds (process running for 4.414)
+ 2023-12-11 20:52:37.753 [https-jsse-nio-8083-exec-6] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2023-12-11 20:52:37.753 [https-jsse-nio-8083-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 2023-12-11 20:52:37.755 [https-jsse-nio-8083-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+ 2023-12-11 20:55:39.585 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+ 2023-12-11 20:55:39.615 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 5516 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 20:55:39.616 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-12-11 20:55:39.654 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\PC\.m2\repository\com\sun\xml\bind\jaxb-core\4.0.1\jaxb-core-4.0.1.jar referenced one or more files that do not exist: file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.1/jakarta.activation-api.jar,file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.1/jakarta.xml.bind-api.jar
+ 2023-12-11 20:55:39.654 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\PC\.m2\repository\com\sun\xml\bind\jaxb-impl\4.0.1\jaxb-impl-4.0.1.jar referenced one or more files that do not exist: file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-impl/4.0.1/jaxb-core.jar,file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-impl/4.0.1/angus-activation.jar
+ 2023-12-11 20:55:39.654 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2023-12-11 20:55:39.654 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 2023-12-11 20:55:40.279 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 20:55:40.281 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 20:55:40.328 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface team.CowsAndHorses.repository.SmsListRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+ 2023-12-11 20:55:40.329 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 20:55:40.582 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-11 20:55:41.063 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https) 8858 (http)
+ 2023-12-11 20:55:41.074 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:55:41.078 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:55:41.080 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2023-12-11 20:55:41.080 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+ 2023-12-11 20:55:41.194 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2023-12-11 20:55:41.194 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1539 ms
+ 2023-12-11 20:55:42.534 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2023-12-11 20:55:42.570 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 20:55:42.679 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 20:55:42.684 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) 8858 (http) with context path ''
+ 2023-12-11 20:55:42.696 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Started JxFruitApplication in 3.385 seconds (process running for 4.465)
+ 2023-12-11 22:58:03.898 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+ 2023-12-11 22:58:03.940 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Starting JxFruitApplication using Java 17.0.8.1 with PID 12948 (E:\桌面\践行鲜果\jxx_system\target\classes started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-11 22:58:03.941 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - The following 1 profile is active: "debug"
+ 2023-12-11 22:58:03.987 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\PC\.m2\repository\com\sun\xml\bind\jaxb-core\4.0.1\jaxb-core-4.0.1.jar referenced one or more files that do not exist: file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.1/jakarta.activation-api.jar,file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.1/jakarta.xml.bind-api.jar
+ 2023-12-11 22:58:03.987 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\PC\.m2\repository\com\sun\xml\bind\jaxb-impl\4.0.1\jaxb-impl-4.0.1.jar referenced one or more files that do not exist: file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-impl/4.0.1/jaxb-core.jar,file:/C:/Users/PC/.m2/repository/com/sun/xml/bind/jaxb-impl/4.0.1/angus-activation.jar
+ 2023-12-11 22:58:03.988 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2023-12-11 22:58:03.988 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 2023-12-11 22:58:04.704 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-11 22:58:04.707 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-11 22:58:04.767 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface team.CowsAndHorses.repository.SmsListRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+ 2023-12-11 22:58:04.767 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43 ms. Found 0 Redis repository interfaces.
+ 2023-12-11 22:58:05.079 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-11 22:58:05.577 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (https) 8858 (http)
+ 2023-12-11 22:58:05.587 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 22:58:05.591 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 22:58:05.595 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+ 2023-12-11 22:58:05.595 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+ 2023-12-11 22:58:05.713 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2023-12-11 22:58:05.714 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1724 ms
+ 2023-12-11 22:58:07.283 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2023-12-11 22:58:07.320 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8083"]
+ 2023-12-11 22:58:07.430 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8858"]
+ 2023-12-11 22:58:07.435 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (https) 8858 (http) with context path ''
+ 2023-12-11 22:58:07.448 [restartedMain] INFO  team.CowsAndHorses.JxFruitApplication - Started JxFruitApplication in 3.898 seconds (process running for 5.233)
+ 2023-12-11 22:58:17.653 [https-jsse-nio-8083-exec-6] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2023-12-11 22:58:17.653 [https-jsse-nio-8083-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 2023-12-11 22:58:17.655 [https-jsse-nio-8083-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms

@@ -1,0 +1,75 @@
+ 2023-12-04 20:17:44.975 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [team.CowsAndHorses.pursebuddy.JxxApplicationTests]: JxxApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ 2023-12-04 20:17:45.119 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration team.CowsAndHorses.JxFruitApplication for test class team.CowsAndHorses.pursebuddy.JxxApplicationTests
+ 2023-12-04 20:17:45.581 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+ 2023-12-04 20:17:45.619 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - Starting JxxApplicationTests using Java 17.0.8.1 with PID 2572 (started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-04 20:17:45.620 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - The following 1 profile is active: "debug"
+ 2023-12-04 20:17:46.501 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-04 20:17:46.505 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-04 20:17:46.558 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29 ms. Found 0 Redis repository interfaces.
+ 2023-12-04 20:17:46.953 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-04 20:17:49.453 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - Started JxxApplicationTests in 4.162 seconds (process running for 5.686)
+ 2023-12-04 20:17:49.908 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2023-12-04 20:17:50.498 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4504a4ed
+ 2023-12-04 20:17:50.500 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2023-12-04 20:17:51.285 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 2023-12-04 20:17:51.363 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 2023-12-04 20:18:40.258 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [team.CowsAndHorses.pursebuddy.JxxApplicationTests]: JxxApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ 2023-12-04 20:18:40.396 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration team.CowsAndHorses.JxFruitApplication for test class team.CowsAndHorses.pursebuddy.JxxApplicationTests
+ 2023-12-04 20:18:40.848 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+ 2023-12-04 20:18:40.874 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - Starting JxxApplicationTests using Java 17.0.8.1 with PID 33320 (started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-04 20:18:40.875 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - The following 1 profile is active: "debug"
+ 2023-12-04 20:18:41.701 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-04 20:18:41.704 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-04 20:18:41.750 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29 ms. Found 0 Redis repository interfaces.
+ 2023-12-04 20:18:42.105 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-04 20:18:44.663 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - Started JxxApplicationTests in 4.102 seconds (process running for 5.578)
+ 2023-12-04 20:18:45.114 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2023-12-04 20:18:45.680 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1504b493
+ 2023-12-04 20:18:45.683 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2023-12-04 20:19:05.946 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 2023-12-04 20:19:05.965 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 2023-12-04 20:30:55.421 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [team.CowsAndHorses.pursebuddy.JxxApplicationTests]: JxxApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ 2023-12-04 20:30:55.544 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration team.CowsAndHorses.JxFruitApplication for test class team.CowsAndHorses.pursebuddy.JxxApplicationTests
+ 2023-12-04 20:30:56.024 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+ 2023-12-04 20:30:56.053 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - Starting JxxApplicationTests using Java 17.0.8.1 with PID 5432 (started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-04 20:30:56.054 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - The following 1 profile is active: "debug"
+ 2023-12-04 20:30:56.883 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-04 20:30:56.886 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-04 20:30:56.933 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30 ms. Found 0 Redis repository interfaces.
+ 2023-12-04 20:30:57.323 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-04 20:30:59.961 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - Started JxxApplicationTests in 4.241 seconds (process running for 5.636)
+ 2023-12-04 20:31:00.489 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2023-12-04 20:31:00.983 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@208185c0
+ 2023-12-04 20:31:00.985 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2023-12-04 20:31:18.429 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 2023-12-04 20:31:18.453 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 2023-12-04 20:40:12.590 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [team.CowsAndHorses.pursebuddy.JxxApplicationTests]: JxxApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ 2023-12-04 20:40:12.706 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration team.CowsAndHorses.JxFruitApplication for test class team.CowsAndHorses.pursebuddy.JxxApplicationTests
+ 2023-12-04 20:40:13.180 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+ 2023-12-04 20:40:13.209 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - Starting JxxApplicationTests using Java 17.0.8.1 with PID 26864 (started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-04 20:40:13.210 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - The following 1 profile is active: "debug"
+ 2023-12-04 20:40:14.049 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-04 20:40:14.052 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-04 20:40:14.098 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+ 2023-12-04 20:40:14.475 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-04 20:40:16.823 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - Started JxxApplicationTests in 3.954 seconds (process running for 5.387)
+ 2023-12-04 20:40:17.293 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2023-12-04 20:40:17.842 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@558aa1f1
+ 2023-12-04 20:40:17.845 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2023-12-04 20:40:39.183 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 2023-12-04 20:40:39.194 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+ 2023-12-04 20:50:37.019 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [team.CowsAndHorses.pursebuddy.JxxApplicationTests]: JxxApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+ 2023-12-04 20:50:37.138 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration team.CowsAndHorses.JxFruitApplication for test class team.CowsAndHorses.pursebuddy.JxxApplicationTests
+ 2023-12-04 20:50:37.594 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+ 2023-12-04 20:50:37.618 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - Starting JxxApplicationTests using Java 17.0.8.1 with PID 11336 (started by PC in E:\桌面\践行鲜果\jxx_system)
+ 2023-12-04 20:50:37.619 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - The following 1 profile is active: "debug"
+ 2023-12-04 20:50:38.449 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+ 2023-12-04 20:50:38.452 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ 2023-12-04 20:50:38.496 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29 ms. Found 0 Redis repository interfaces.
+ 2023-12-04 20:50:38.884 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [team.CowsAndHorses.config.ValidatorConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2023-12-04 20:50:41.213 [main] INFO  team.CowsAndHorses.pursebuddy.JxxApplicationTests - Started JxxApplicationTests in 3.897 seconds (process running for 5.276)
+ 2023-12-04 20:50:41.677 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2023-12-04 20:50:42.970 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13866865
+ 2023-12-04 20:50:42.972 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2023-12-04 20:50:58.561 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+ 2023-12-04 20:50:58.570 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

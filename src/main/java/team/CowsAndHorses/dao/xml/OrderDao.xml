@@ -1,0 +1,25 @@
+<select id="selectMyPage" resultType="team.CowsAndHorses.dto.OrderDetail">
+<!--    select-->
+<!--        tbl_order.id, tbl_user.username, tbl_order.submit_time, tbl_order.order_state,-->
+<!--    tbl_address.receiver_phone, tbl_address.receiver_name, tbl_order.discount, tbl_goods.thumb_nail,-->
+<!--    tbl_order_sku.scale, tbl_order.total_money, tbl_order.pay_money, tbl_order.post_fee-->
+<!--    FROM tbl_order, tbl_user, tbl_address, tbl_goods, tbl_order_sku-->
+<!--    WHERE tbl_order.id = tbl_order_sku.order_id AND tbl_order.user_id = tbl_user.id-->
+<!--    AND tbl_order.address_id = tbl_address.id = AND tbl_goods.id = tbl_order_sku.goods_id-->
+<!--    AND tbl_sku.id = tbl_order_sku.sku_id-->
+<!--    ${ ew.customSqlSegment }-->
+</select>
+
+<!--private Integer id;-->
+<!--private Integer username;-->
+<!--private String submitTime;-->
+<!--private Integer orderState;-->
+<!--private List<String> goodsName;-->
+<!--private String receiverPhone;-->
+<!--private String receiverName;-->
+<!--private Double discount;-->
+<!--private String thumbNail;-->
+<!--private String scale;-->
+<!--private Double totalMoney;-->
+<!--private Double payMoney;-->
+<!--private Double postFee;-->

@@ -1,0 +1,2 @@
+ 2024-03-05 16:30:08.122 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[team.CowsAndHorses]' package. Please check your configuration.
+ 2024-03-05 16:34:10.090 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[team.CowsAndHorses]' package. Please check your configuration.
